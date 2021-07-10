@@ -5,6 +5,14 @@
 - **redis** - `:6379`
 - **mailhog** - `:8025` 
 
+## Install Dependency
+
+```bash
+cd src
+npm install
+composer install
+```
+
 ## Run docker
 ```bash
 docker-compose up -d --build site
