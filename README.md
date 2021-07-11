@@ -18,8 +18,18 @@ composer install
 docker-compose up -d --build site
  ```
 
-## Using BrowserSync
+## Use BrowserSync
 
 ```bash
 docker-compose run --rm --service-ports npm run watch
+```
+
+## Rebulid sass-loader
+```bash
+docker-compose run --rm npm rebuild node-sass
+```
+
+## docker-compose npm install
+```bash
+docker-compose run --rm npm install
 ```
